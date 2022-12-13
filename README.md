@@ -10,7 +10,7 @@ For the -d flag, you designate the design logic for either:
 3 ) Internal Probe PCR; This option designs flanking primers around your ROI will dropping an internal probe over your target region. This is primarily for 
                         RT-PCR or certain ddPCR applications. 
 
-############################
+------------------
 
 The primer designer program relies on the following dependencies. Download these programs from the provided URL. 
 
@@ -26,13 +26,13 @@ cd src # Navigate to directory containing the executables
 sudo cp primer3_core /usr/local/bin # Allow privileges and copy to your path
 sudo cp -r primer3_config /opt/ # Allow privileges and copy to your path recursively, if needed
 
-------------------
+#########################
 
 Example 2:
 cd src
 sudo cp mfeprimer /usr/local/bin
 
-############################
+------------------
 
 You may use any reference genome for the blast query. Hg38 is recommended for the current purposes of this script. This can be installed using this command:
 
@@ -49,10 +49,10 @@ https://www.internationalgenome.org/wiki/Analysis/Variant%20Call%20Format/vcf-va
 
 If you do not have wget, download this program from here: (https://ftp.gnu.org/gnu/wget/?C=M;O=D), or (better) using Homebrew (https://brew.sh/).
 
-############################
+------------------
 
 Future additions: Add further PCR option granularity in regards to targeting mutations.
 
-############################
+------------------
 
 Please direct any questions, bugs, or comments to: hummer.blake@gmail.com
